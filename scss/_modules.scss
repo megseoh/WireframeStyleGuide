@@ -1,0 +1,28 @@
+img {
+	background: $brand-colorLight;
+	border: 1px solid $neutralDark;
+	padding: 10px;
+	float: left;
+	margin: 0 5% 50px 5%;
+}
+.avatar {
+	background: $neutralLight;
+	color: $brand-colorMed;
+}
+.video {
+	clear: both;
+	display: inline-block;
+	margin-left: 25%;
+}
+
+.panel {
+	@extend .button;
+	@extend blockquote;
+	background: $brand-colorDark;
+	padding: 75px;
+	display: inline-block;
+	margin: 10%;
+	p {
+		color: lighten($neutralLight, 20%);
+	}
+}
